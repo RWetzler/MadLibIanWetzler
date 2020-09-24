@@ -7,7 +7,7 @@
 <title>Driving Test</title>
 </head>
 <body>
-<form action ="MadLibMaker" method = "get">
+<form action ="drivingServlet" method = "post">
 Enter your word choices
 <h1> </h1>
 Adjective #1

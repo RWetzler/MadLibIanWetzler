@@ -24,14 +24,14 @@ public MadLib(ArrayList<String> adjectives,ArrayList<String> noun,ArrayList<Stri
 public String farmMadLib() {
 	String madLib = "I spent last summer on my grandfather's "+adjectives.get(0)+" farm. He\r\n" + 
 			"raises oats, wheat, and " + nouns.get(0) + " Grandfather also grows lettuce,\r\n" + 
-			"corn, and lima " + pluralNouns.get(0) +" My favorite place to "+ verbs.get(0) + " on\r\n" + 
+			"corn, and lima " + pluralNouns.get(0) +".  My favorite place to "+ verbs.get(0) + " on\r\n" + 
 			"the farm is the " + nouns.get(1) +" house where Grandfather keeps his\r\n" + 
 			adjectives.get(1)+" chickens. Every day, each hen lays round, smooth\r\n" + 
 			pluralNouns.get(1)+" Grandfather sells most of them, but keeps some so\r\n" + 
 			"the hens can "+ verbs.get(1)+" on them and hatch cute, fuzzy little\r\n" + 
 			pluralNouns.get(2)+" for an hour, and climb a " + nouns.get(2)+" without losing your\r\n" + 
-			specialCase + ".I'm looking forward to next year, when Grandfather\r\n" + 
-			"is going to show me how to drive his" + nouns.get(3) + " sow the\r\n" + 
+			specialCase + ". I'm looking forward to next year, when Grandfather\r\n" + 
+			"is going to show me how to drive his " + nouns.get(3) + " sow the\r\n" + 
 			nouns.get(0)+", and "+ verbs.get(2) +" the cow. ";
 	return madLib;
 	
